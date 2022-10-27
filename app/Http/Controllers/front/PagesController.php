@@ -15,7 +15,7 @@ class PagesController extends Controller
         if(empty($page)){
          return redirect('/');
         }
-        return view('front.page.index',["page" =>  $page , "cat" =>  []]);
+        return view('front.aboutUs.about-us',["page" =>  $page , "cat" =>  []]);
     }
 
    /* public function login(Request $request){
@@ -30,4 +30,4 @@ class PagesController extends Controller
         }
     } */
 }
-
+// aboutUs.about-us

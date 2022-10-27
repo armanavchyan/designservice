@@ -22,7 +22,7 @@
                         data-transform_out="x:0;y:0;o:0;s:500;e:easeInOutExpo;"
                         >
                         <div class="slider-content-box" style="padding-bottom: 0px;width: 100%;max-width: 100%;margin-left: 0;   background: rgb(244, 188, 22);">
-                            <h2 style="background: #fff8f800;"><a href="#" title="{{$value->title}}" style="">{{$serviceI->title}}</a></h2>
+                            <h2 style="background: #fff8f800;"><a href="#" title="{{$value->title}}" >{{$serviceI->title}}</a></h2>
                         </div>
                     </div>
                     <div class="revolution-slider-container">

@@ -25,7 +25,7 @@ class IndexController extends Controller
 
     public function contact()
     {
-       return view('front.contact');
+       return view('front.contact1');
     }
 }
 

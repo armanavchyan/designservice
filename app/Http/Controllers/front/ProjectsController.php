@@ -17,7 +17,7 @@ class ProjectsController extends Controller{
         $data  = array(
                 "projects"   => $projects,
             );
-       return view("front.projects.index",$data);
+       return view("front.projects.index1",$data);
     }
     
     public function view(Request $request,$id){
@@ -25,6 +25,6 @@ class ProjectsController extends Controller{
         $data  = array(
                 "project"   => $project,
             );
-       return view("front.projects.view",$data);
+       return view("front.projects.project",$data);
     }
 }
