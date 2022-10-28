@@ -1,6 +1,8 @@
-<header id="site-header" class="site-header header-transparent">
+<header id="site-header" class="site-header ">
     <!-- Main Header start -->
-    <div class="octf-main-header is-fixed" style="padding-top:20px; padding-bottom:20px ; background-color:#1a1a1a">
+    <div class="octf-main-header is-fixed" style="padding-top:20px; padding-bottom:20px ;
+     background-color:#1a1a1a">
+
         <div class="octf-area-wrap">
             <div class="container-fluid octf-mainbar-container">
                 <div class="octf-mainbar">
@@ -28,7 +30,6 @@
                                     @foreach(Layout::getMenuTop() as $value)
 
                                     <li class="has-submenu"><a href="/pages/{{$value->getpages->slug}}">{{trans('About As'.$value->getpages->titleCode)}}</a></li>
-
 
                                     </li>
                                     @endforeach

@@ -24,8 +24,10 @@
                                 <h2 class="box-header">OUR SERVICES</h2>
                             </div>
                             <p class="description align-center">
-                                ARMBuild LTD is a professional construction company now more than 15 years in the industry.<br>
-                                All aspects of work are carried out by a friendly and understanding team. <br>
+                                ARMBuild LTD is a professional construction 
+                                company now more than 15 years in the industry.<br>
+                                All aspects of work are carried out by a friendly
+                                 and understanding team. <br>
                                 We offer a full range of services
                             </p>
 
@@ -35,13 +37,13 @@
                     </div>
                     <div class="row ">
                         @foreach($service as $key => $value)
-                        <div class="col-lg-4 col-md-4 col-sm-4 ">
+                        <div class="col-lg-4 col-md-6 col-sm-12 ">
                             <div class="icon-box icon-box--bg-img icon-box--icon-top icon-box--is-line-hover icon-bg-2 text-center hover-for-h4">
                                 <div class="icon-main"><img src="/uploads/{{$value->getServiceMineImages($value->id)->image}}" style="height:150px"></div>
                                 <div class="content-box ">
                                     <h4 class="box-header"><a href="/services?id={{$value->id}}" title="{{$value->title}}">{{$value->title}}</a></h4>
                                     <div class=" ot-heading is-dots" style="left:35%; padding-bottom: 0 "></div>
-                                    <p style="height: 400px; font-family: Raleway, sans-serif; line-height: 1.875; font-weight:400">{{$value->min_description}}</p>
+                                    <p style="min-height: 400px; font-family: Raleway, sans-serif; line-height: 1.875; font-weight:400">{{$value->min_description}}</p>
                                 </div>
                             </div>
                         </div>
@@ -70,7 +72,13 @@
                             <div class="ot-heading is-dots">
                                 <h2 class="box-header">RECENT PROJECTS</h2>
                             </div>
-                            <p class="description align-center">Here are a few of many projects we have completed for our customers. We provide a professional service<br>which includes consultation, free estimate, design, supply of materials and installation.</p>
+                            <p class="description align-center">
+                                Here are a few of many projects
+                                 we have completed for our customers.
+                                  We provide a professional service
+                                  <br>which includes consultation,
+                                   free estimate, design, supply of 
+                                   materials and installation.</p>
                         </div>
                     </div>
 
@@ -99,7 +107,6 @@
                 <div class="row">
                     <h4 style="margin:auto">
                         <div class="ot-button" style="margin:auto ; margin-top:10%">
-                            <span class="button-label">EXPLORE OUR PROJECTS</span>
                             <a href="/projects" class="octf-btn octf-btn-dark">VIEW ALL PROJECTS</a>
                         </div>
                     </h4>
@@ -136,8 +143,6 @@
                                     </li>
 
                                 </ul>
-
-
                                 <div class="process-des">
 
                                     <div class="process-des-item" style="display: none;">

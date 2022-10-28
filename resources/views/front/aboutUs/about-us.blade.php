@@ -4,6 +4,7 @@
 
 <body class="royal_preloader">
     <div id="page" class="site">
+        
         @include('front.layout.main_header1')
 
         <section class="about-company">

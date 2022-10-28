@@ -1,7 +1,7 @@
 <footer id="site-footer"  class="site-footer">
     <div class="container">
-        <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 mb-4 mb-xl-4">
+        <div class="row" >
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 mb-12 mb-xl-12">
                 <div class="widget-footer">
                     <spun>
                         <p class="text-center">
@@ -10,7 +10,7 @@
                     </spun>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 mb-4 mb-xl-4">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 mb-12 mb-xl-12">
                 <div class="widget-footer">
                     <spun>
                     <p class="text-center">
@@ -19,7 +19,7 @@
                     </spun>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 mb-4 mb-xl-4">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 mb-12 mb-xl-12">
                 <div class="widget-footer">
                 <spun>
                 <p class="text-center">
@@ -31,19 +31,19 @@
 
 
 
-            <!-- 
+<!--             
             <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-4 mb-xl-0">
                 <div style="display:flex">
                     <div class="list-item-icon"><i class="ot-flaticon-place"></i></div>
-                    <div class="list-item-text">411 University St, Seattle, USA</div>
+                    <div class="list-item-text">{{Layout::getSeting()->addres}}</div>
                 </div>
                 <div style="display:flex">
                     <div class="list-item-icon"><i class="ot-flaticon-mail"></i></div>
-                    <div class="list-item-text">armbuild@mail.com</div>
+                    <div class="list-item-text">{{Layout::getSeting()->email}}</div>
                 </div>
                 <div style="display:inlaine">
                     <div class="list-item-icon"><i class="ot-flaticon-phone-call"></i></div>
-                    <div class="list-item-text">+1 800 456 789 123</div>
+                    <div class="list-item-text">{{Layout::getSeting()->phone}}</div>
                 </div>
             </div> -->
         </div>

@@ -2207,7 +2207,8 @@ a:hover, a:active {
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: #000;
+    border-bottom: 1px solid rgba(120, 116, 116, 0.2);
   }
 
   .header_mobile.open, .header_mobile.is-stuck {
