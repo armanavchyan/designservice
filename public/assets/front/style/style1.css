@@ -12124,3 +12124,13 @@ ul.style-default li:last-child, ol.style-default li:last-child {
   margin-right: auto;
   margin-top: 30px;
 }
+.forcefullwidth_wrapper_tp_banner>.col-md-12{
+  height: 460px !important;
+}
+.defaultimg{
+  left: 0 !important; 
+  max-height: 580px !important;
+}
+.services-1{
+  margin-top: 60px ;
+}

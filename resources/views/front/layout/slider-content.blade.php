@@ -8,9 +8,9 @@
     </div> -->
 
 
-    <div  id="rev_slider_one_wrapper" class="tp-bgimg defaultimg " data-alias="mask-showcase" data-source="gallery">
+    <div   id="rev_slider_one_wrapper" class="tp-bgimg defaultimg " data-alias="mask-showcase" data-source="gallery">
         <!-- START REVOLUTION SLIDER 5.4.1 fullscreen mode -->
-        <div id="rev_slider_one" class="rev_slider" data-version="5.4.1">
+        <div id="rev_slider_one" class="rev_slider "  data-version="5.4.1">
             <ul>
                 @foreach($service as $key => $value)
                 <li data-index="rs-70" data-transition="fade" data-slotamount="{{$key}}" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off"  data-param1="1" >
